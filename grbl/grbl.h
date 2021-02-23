@@ -63,6 +63,8 @@
 #include "stepper.h"
 #include "jog.h"
 #include "current_control.h"
+//Add Servo.h
+#include "servo.h"
 
 // ---------------------------------------------------------------------------------------
 // COMPILE-TIME ERROR CHECKING OF DEFINE VALUES:
