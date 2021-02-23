@@ -257,9 +257,9 @@
 //#define OPEN_DRAIN_A
 
 // Servo Section
-#define HAS_SERVOS
+#define HAS_SERVOS //Uncomment to add servo support
 #ifdef HAS_SERVOS
-  #def NUM_SERVOS 1 //change for number of servos
+  #define NUM_SERVOS 1 //change for number of servos
 #endif
 
 // ---------------------------------------------------------------------------------------
